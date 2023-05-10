@@ -1,0 +1,1 @@
+@tailwind base;@tailwind components;@tailwind utilities;@layer components{.active{@apply bg-green-600 text-white;}.labeltxt{@apply mb-3 text-left text-xl;}}#app{text-align:center;color:#2c3e50}
