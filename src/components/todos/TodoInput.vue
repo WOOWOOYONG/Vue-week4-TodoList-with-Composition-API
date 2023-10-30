@@ -48,7 +48,7 @@ const handleAddTodo = () => {
         class="mr-5 w-full rounded-md border-2 px-2 py-1 indent-2"
         placeholder="請輸入待辦事項"
         v-model.trim="newTodo"
-        @keyup.enter="handleAddTodo"
+        @keypress.enter="handleAddTodo"
       />
     </label>
     <button

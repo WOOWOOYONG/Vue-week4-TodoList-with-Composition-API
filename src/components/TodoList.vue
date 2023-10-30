@@ -1,12 +1,12 @@
 <script setup>
-import { useConfigStore } from '@/stores/configStore'
-import { useTodoStore } from '@/stores/todoStore'
 import TodoInput from './todos/TodoInput.vue'
 import TodoStatusTab from './todos/TodoStatusTab.vue'
 import TodoItems from './todos/TodoItems.vue'
 import LogOutBtn from './LogOutBtn.vue'
 import { ref, onMounted } from 'vue'
 import { storeToRefs } from 'pinia'
+import { useConfigStore } from '@/stores/configStore'
+import { useTodoStore } from '@/stores/todoStore'
 
 const nickName = ref('')
 
